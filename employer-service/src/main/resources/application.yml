@@ -1,8 +1,8 @@
 server:
-  port: 1505
+  port: 1504
 spring:
   application:
-    name: theater-service
+    name: employer-service
   h2:
     console:
       enabled: true
@@ -23,7 +23,7 @@ eureka:
       defaultZone: http://127.0.0.1:1500/eureka
 
 greeting:
-  message: Welcome to the Theater Service.
+  message: Welcome to the Employer Service.
 
 token:
   expiration_time: 86400000
